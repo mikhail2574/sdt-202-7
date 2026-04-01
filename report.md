@@ -1,4 +1,4 @@
-# Homework 4 Report
+# Homework 7 Report
 
 Code and benchmark implementation are in [src/Main.java](/Users/mykhailo/Documents/GitHub/sdt-202-7/src/Main.java) and [src/SortingBenchmark.java](/Users/mykhailo/Documents/GitHub/sdt-202-7/src/SortingBenchmark.java). Measured benchmark data are in [out/time_results.csv](/Users/mykhailo/Documents/GitHub/sdt-202-7/out/time_results.csv) and [out/operation_results.csv](/Users/mykhailo/Documents/GitHub/sdt-202-7/out/operation_results.csv).
 
@@ -21,25 +21,25 @@ The dominant counted operation for each algorithm was:
 
 ### A. Execution time
 
-| Size | Merge Sort | Quick Sort | Heap Sort |
-| --- | ---: | ---: | ---: |
-| 1,000 | 140,004 ns | 65,308 ns | 252,595 ns |
-| 5,000 | 320,395 ns | 255,199 ns | 396,087 ns |
-| 10,000 | 636,762 ns | 447,979 ns | 728,029 ns |
-| 20,000 | 1,368,454 ns | 957,949 ns | 1,439,837 ns |
-| 50,000 | 3,941,462 ns | 3,060,933 ns | 5,214,812 ns |
+| Size    |   Merge Sort |   Quick Sort |     Heap Sort |
+| ------- | -----------: | -----------: | ------------: |
+| 1,000   |   140,004 ns |    65,308 ns |    252,595 ns |
+| 5,000   |   320,395 ns |   255,199 ns |    396,087 ns |
+| 10,000  |   636,762 ns |   447,979 ns |    728,029 ns |
+| 20,000  | 1,368,454 ns |   957,949 ns |  1,439,837 ns |
+| 50,000  | 3,941,462 ns | 3,060,933 ns |  5,214,812 ns |
 | 100,000 | 8,168,254 ns | 5,600,171 ns | 12,162,412 ns |
 
 ### B. Dominant operation count
 
-| Size | Merge Sort | Quick Sort | Heap Sort |
-| --- | ---: | ---: | ---: |
-| 1,000 | 8,702 | 10,861 | 16,845 |
-| 5,000 | 55,219 | 74,030 | 107,650 |
-| 10,000 | 120,457 | 156,004 | 235,343 |
-| 20,000 | 260,892 | 335,644 | 510,795 |
-| 50,000 | 718,114 | 937,739 | 1,409,845 |
-| 100,000 | 1,536,392 | 2,025,037 | 3,019,627 |
+| Size    | Merge Sort | Quick Sort | Heap Sort |
+| ------- | ---------: | ---------: | --------: |
+| 1,000   |      8,702 |     10,861 |    16,845 |
+| 5,000   |     55,219 |     74,030 |   107,650 |
+| 10,000  |    120,457 |    156,004 |   235,343 |
+| 20,000  |    260,892 |    335,644 |   510,795 |
+| 50,000  |    718,114 |    937,739 | 1,409,845 |
+| 100,000 |  1,536,392 |  2,025,037 | 3,019,627 |
 
 ## Answers
 
